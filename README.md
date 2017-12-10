@@ -2,6 +2,7 @@
 Simple class to parse RSS.
 
 ## Exemple of usage:
+```php
     require_once("parser.class.php");
     require_once("templates.class.php");
 
@@ -11,3 +12,4 @@ Simple class to parse RSS.
     $obj->feed("https://kalaxia.org/?feed=rss2");
 
     var_dump($obj);
+```
